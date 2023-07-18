@@ -1,0 +1,26 @@
+{
+  "name": "chatrealtimeapp",
+  "version": "1.0.0",
+  "description": "chat realtime app basic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dieptonn/Realtime_chat_app.git"
+  },
+  "keywords": [
+    "realtime",
+    "chat"
+  ],
+  "author": "diepton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dieptonn/Realtime_chat_app/issues"
+  },
+  "homepage": "https://github.com/dieptonn/Realtime_chat_app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
