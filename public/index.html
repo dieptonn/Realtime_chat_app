@@ -1,0 +1,33 @@
+<html>  
+    <head>
+      <title> Real Time Chat </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1> Chat! </h1>
+
+        <div id="wrapper">
+            <div id="menu">
+                  <p class="welcome">Welcome, user<b></b></p>
+                  <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+                  <div style="clear:both"></div>
+              </div>
+             
+              <div id="chatbox">
+                <ul id="thread"></ul>
+              </div>   
+              <form>
+                <input id="message" type="text" placeholder="message">
+                <input type="submit" value="Send">
+            </form>
+          </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        
+        <script src="/socket.io/socket.io.js"></script>
+
+        <script src="client.js"></script>  
+    </body>
+ </html> 
